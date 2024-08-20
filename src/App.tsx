@@ -1,4 +1,8 @@
+import './App.css'
+
 import Componente1 from "./components/Componente1"
+import { Componente2 } from './components/Componente2';
+import { Componente3 } from './components/Componente3';
 
 function App() {
 
@@ -9,6 +13,8 @@ function App() {
   return (
     <>
       <Componente1 aviso={aviso}/>
+      <Componente2/>
+      <Componente3/>
     </>
   )
 }
